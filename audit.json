@@ -1,0 +1,72 @@
+{
+  "package": "dylv.liquidass_0.1.1b+mini15.3_iphoneos-arm64.deb",
+  "sha256": "ec92b408f77caec2db692306f9b6ec5c0c4a1e021fac333395cc6a84df13cfae",
+  "control": "Package: dylv.liquidass\nName: Liquid (Gl)ass - 12 mini iOS 15.6.1\nDescription: Experimental full-refraction build for iPhone13,1 / iOS 15.6.1 / Dopamine rootless. Device testing required.\nMaintainer: dylv\nAuthor: dylv\nSection: Tweaks\nDepends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.6.1), firmware (<< 15.6.2), preferenceloader\nIcon: https://winaviation.github.io/repo/depictions/dylv.liquidass/icon.png\nReplaces: dylv.blurless\nConflicts: dylv.blurless\nArchitecture: iphoneos-arm64\nVersion: 0.1.1b+mini15.3\nInstalled-Size: 7156\n",
+  "binaries": {
+    "var/jb/Library/MobileSubstrate/DynamicLibraries/LiquidAssRWB.dylib": {
+      "arch": "arm64e",
+      "uuid": "5e9b668a-7910-36ff-bc50-968dc5030fc2",
+      "embedded_signature": true,
+      "loads": [
+        "/usr/lib/libobjc.A.dylib",
+        "/System/Library/Frameworks/Foundation.framework/Foundation",
+        "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+        "/System/Library/Frameworks/UIKit.framework/UIKit",
+        "/usr/lib/libSystem.B.dylib",
+        "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics",
+        "@rpath/CydiaSubstrate.framework/CydiaSubstrate"
+      ]
+    },
+    "var/jb/Library/MobileSubstrate/DynamicLibraries/liquidass.dylib": {
+      "arch": "arm64e",
+      "uuid": "a246b37f-ec1f-3ce0-91d0-84fed31dc280",
+      "embedded_signature": true,
+      "loads": [
+        "/usr/lib/libobjc.A.dylib",
+        "/System/Library/Frameworks/Foundation.framework/Foundation",
+        "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+        "/System/Library/Frameworks/UIKit.framework/UIKit",
+        "/System/Library/Frameworks/QuartzCore.framework/QuartzCore",
+        "/System/Library/Frameworks/CoreText.framework/CoreText",
+        "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics",
+        "/System/Library/Frameworks/CoreMotion.framework/CoreMotion",
+        "/usr/lib/libSystem.B.dylib",
+        "@rpath/CydiaSubstrate.framework/CydiaSubstrate"
+      ]
+    },
+    "var/jb/Library/MobileSubstrate/DynamicLibraries/LiquidAssBackboardd.dylib": {
+      "arch": "arm64e",
+      "uuid": "6d1e4318-8826-3155-b8fd-e3f68c13a244",
+      "embedded_signature": true,
+      "loads": [
+        "/usr/lib/libobjc.A.dylib",
+        "/System/Library/Frameworks/Foundation.framework/Foundation",
+        "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+        "/System/Library/Frameworks/Metal.framework/Metal",
+        "/System/Library/Frameworks/QuartzCore.framework/QuartzCore",
+        "/usr/lib/libc++.1.dylib",
+        "/usr/lib/libSystem.B.dylib"
+      ]
+    },
+    "var/jb/Library/PreferenceBundles/LiquidAssPrefs.bundle/LiquidAssPrefs": {
+      "arch": "arm64e",
+      "uuid": "908cc19b-d6b3-3baf-b4ed-730aef4187f8",
+      "embedded_signature": true,
+      "loads": [
+        "/usr/lib/libobjc.A.dylib",
+        "/System/Library/Frameworks/Foundation.framework/Foundation",
+        "/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation",
+        "/System/Library/Frameworks/UIKit.framework/UIKit",
+        "/System/Library/Frameworks/QuartzCore.framework/QuartzCore",
+        "/System/Library/Frameworks/CoreText.framework/CoreText",
+        "/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics",
+        "/System/Library/Frameworks/CoreMotion.framework/CoreMotion",
+        "/System/Library/PrivateFrameworks/Preferences.framework/Preferences",
+        "/usr/lib/libSystem.B.dylib",
+        "/System/Library/Frameworks/UniformTypeIdentifiers.framework/UniformTypeIdentifiers"
+      ]
+    }
+  },
+  "file_count": 33,
+  "device_tested": false
+}
